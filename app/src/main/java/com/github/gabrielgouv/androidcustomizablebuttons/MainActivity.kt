@@ -24,6 +24,8 @@ class MainActivity : AppCompatActivity() {
         customizableButton.text = ("Customizable Bugdgtton")
         customizableButton.textSize = 20F
 
+        progressButton.isLoading = true
+
     }
 
 }

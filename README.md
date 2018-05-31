@@ -47,6 +47,18 @@ In this basic example you can see how to easily create a custom button with ripp
         app:cb_borderRadiusNormal="30dp" />
 ```
 
+##### Button with progress bar
+```XML
+<com.github.gabrielgouv.customizablebuttons.CustomizableButtonWithProgressBar
+        android:id="@+id/progressButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+```
+```KOTLIN
+    val progressButton = findViewById(R.id.progressButton)
+    progressButton.isLoading = true
+```
+
 You can use `android:enabled="false"` or `app:cb_enabled="false"` to set your button disabled. You can check the [**Button XML Attributes**](https://github.com/GabrielGouv/Android-Customizable-Buttons/wiki/Button-XML-Attributes) for more information about attributes.
 
 ### Result:

@@ -307,4 +307,8 @@ open class CustomizableButton : BaseButton {
         this.setTypeface(this.typeface, textStyle)
     }
 
+    fun getBackgroundColor(): Int {
+        return mDrawableNormal.backgroundColor
+    }
+
 }
