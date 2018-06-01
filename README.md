@@ -63,6 +63,7 @@ You can use `android:enabled="false"` or `app:cb_enabled="false"` to set your bu
 
 ### Result:
 ![sample](https://i.imgur.com/AgpE30d.gif)
+![sample](https://user-images.githubusercontent.com/11162404/40819636-181a04c8-652a-11e8-9909-845c10b9ea3e.png)
 
 # License
 
